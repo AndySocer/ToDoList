@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>
+			TO DO LIST
+		</title>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
+
+<body>
+	<h1>TO DO LIST</h1>
+	<!-- <a id="checkAllBoton" href="">Seleccionar Todos</a> -->
+
+	<header>
+		<span id="selectAll"><i class="fas fa-tasks"></i></span>
+		<span id="deselectAll"><i class="fas fa-align-slash"></i></span>
+		<input id="taskInput" type="text" name="taskInput" placeholder="Insert Tasks">
+		<span id="uncheckAll"><i class="fas fa-money-check-edit"></i></i></span>
+		<span id="deleteAll"><i class="fad fa-trash-alt"></i></span>
+		<i id="slideUp" class="fas fa-chevron-square-up iconsDisplay"></i>
+		<i id="slideDown" class="fas fa-chevron-square-down iconsDisplay displayNone"></i>
+	</header>
+
+	<div class="allContainer">
+
+
+	<div class="toDoList">
+		<h1 id="NoElementsMsg">No Hay Elementos</h1>
+	<ul id="toDoList">
+	</ul>
+
+	
+	</div>
+	</div>
+
+	<div class="icons">
+	<i id="showAll" class="fas fa-ballot"></i>
+	<i id="showCheck" class="fas fa-ballot-check"></i>
+	<i id="showCross" class="fas fa-tasks-alt"></i>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

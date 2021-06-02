@@ -1,0 +1,165 @@
+h1{
+	text-align: center;
+	color: grey;
+	font-size: 70px;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.allContainer{
+	overflow-y: scroll;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+	max-width: 600px;
+	width: 100%;
+	padding: 20px;
+	height: 500px;
+	max-height: 70vh;
+	background: #e9ecef;
+	border-radius: 5px;
+}
+
+#taskInput{
+	margin: 0;
+	background: #ced4da;
+	width: 50%;
+	max-width: 500px;
+	padding: 5px;
+	border-radius: 4px;
+	border: 1px black;
+	color: grey;
+	font-size: 30px;
+	text-align: center;
+}
+
+li{
+	list-style: none;
+}
+
+#toDoList{
+	height: 400px;
+	max-height: 70vh;
+}
+
+.listItems{
+	font-size: 30px;
+	color: grey;
+	text-align: left;
+	width: 100%;
+}
+
+.listItems:hover{
+	cursor: pointer;
+}
+
+.crossText{
+	text-decoration: line-through;
+}
+
+.removeTask{
+	font-size: 30px;
+	cursor: pointer;
+	margin-left: 50px;
+	padding: 1px 2px;
+	border-radius: 4px;
+	color: grey;
+}
+
+.removeTask:hover{
+	color: #372554;
+}
+
+.check{
+	font-size: 30px;
+	padding-right: 50px;
+	color: grey;
+}
+
+.check:hover{
+	color: green;
+	cursor: pointer;
+}
+
+.checkGreen{
+	color: green;
+}
+
+#selectAll{
+	font-size: 50px;
+	color: grey;
+	padding: 20px;
+	margin-bottom: auto;
+}
+
+#selectAll:hover{
+	cursor: pointer;
+	color: green;
+}
+
+#deselectAll{
+	font-size: 45px;
+	color: grey;
+	padding: 20px;
+	margin-bottom: auto;
+}
+
+#deselectAll:hover{
+	cursor: pointer;
+	color: green;
+}
+
+#deleteAll{
+	font-size: 50px;
+	color: grey;
+	padding: 20px;
+	margin-bottom: auto;
+}
+
+#deleteAll:hover{
+	cursor: pointer;
+	color: red;
+}
+
+#uncheckAll{
+	font-size: 45px;
+	color: grey;
+	padding: 20px;
+	margin-bottom: auto;
+}
+
+#uncheckAll:hover{
+	cursor: pointer;
+	color: red;
+}
+
+.icons, .iconsDisplay{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	font-size: 50px;
+	color: grey;
+}
+
+.icons i,.iconsDisplay{
+	padding-right: 20px;
+}
+
+.icons i:hover{
+	color: blue;
+	cursor: pointer;
+}
+
+.iconsDisplay:hover{
+	color: blue;
+	cursor: pointer;
+}
+
+.displayNone{
+	display: none !important;
+}
